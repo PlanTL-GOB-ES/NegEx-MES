@@ -1,0 +1,19 @@
+:=======================================================================
+:= pseNegPhrases
+:=======================================================================
+no increase
+no change
+no suspicious change
+no significant change
+no interval change
+no definite change
+not extend
+not cause
+not drain
+not significant interval change
+not certain if
+not certain whether
+gram negative
+without difficulty
+not necessarily
+not only

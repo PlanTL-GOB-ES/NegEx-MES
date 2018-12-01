@@ -1,0 +1,31 @@
+:=======================================================================
+:= postNegPhrases
+:=======================================================================
+should be ruled out for
+ought to be ruled out for
+may be ruled out for
+might be ruled out for
+could be ruled out for
+will be ruled out for
+can be ruled out for
+must be ruled out for
+is to be ruled out for
+be ruled out for
+unlikely
+free
+was ruled out
+is ruled out
+are ruled out
+have been ruled out
+has been ruled out
+being ruled out  
+should be ruled out
+ought to be ruled out
+may be ruled out
+might be ruled out
+could be ruled out
+will be ruled out
+can be ruled out
+must be ruled out
+is to be ruled out
+be ruled out

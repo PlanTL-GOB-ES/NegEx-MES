@@ -1,0 +1,32 @@
+:=======================================================================
+:= postNegPhrases with lemma
+:=======================================================================
+deb descart par
+deb ser descart par
+pued ser descart par
+pued ser descart par
+podr ser descart por
+ser descart por
+se pued descart por
+deb descart par
+deb ser descart por
+ser descart por
+improb
+libr
+fue descart
+esta descart
+estan descart
+han sid descart
+ha sid descart
+siend descart
+deb descart
+deb ser descart
+pued ser descart
+podr descart
+podr ser descart
+ser descart
+se pued descart
+deb descart
+deb ser descart
+ser descart
+se descart

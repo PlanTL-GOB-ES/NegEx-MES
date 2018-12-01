@@ -1,1 +1,72 @@
-
+:=======================================================================
+:= conjunctions with lemma
+:=======================================================================
+per
+sin embarg
+sin embarg
+todav
+aunqu
+a pes de que
+todav
+apart de
+except
+apart de
+secundari a
+com la caus de
+com fuent de
+com la razon de
+com la etiolog de
+com el orig de
+com la caus de
+com fuent de
+com la razon de
+com la etiolog de
+com el orig de
+com la caus secundari de
+com la fuent secundari de
+com la razon secundari de
+com la etiolog secundari de
+com el orig secundari de
+com la caus secundari de
+com la fuent secundari par
+com la razon secundari par
+com la etiolog secundari par
+com el orig secundari par
+com caus de
+com fuent de
+com una razon de
+com una etiolog de
+com caus de
+com fuent de
+com una razon par
+com una etiolog par
+com una caus secundari de
+com una fuent secundari de
+com una razon secundari de
+com una etiolog secundari de
+com un orig secundari de
+com una caus secundari par
+com una fuent secundari par
+com una razon secundari par
+com una etiolog secundari par
+com un orig secundari par
+caus de
+motiv de
+caus de
+caus de
+fuent de
+fuent par
+fuent de
+fuent par
+razon de
+razon par
+razon de
+razon par
+etiolog de
+etiolog par
+desenc event par
+orig de
+orig par
+orig de
+orig par
+otras posibil de

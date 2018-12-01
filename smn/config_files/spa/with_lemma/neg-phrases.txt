@@ -1,0 +1,130 @@
+:=======================================================================
+:= negPhrases with lemma
+:=======================================================================
+ausenci de
+no pued ver
+no pod
+revis par
+rechaz
+declin
+neg
+nieg
+neg
+evalu por
+no revel
+libr de
+negat par
+nunc desarroll
+nunc tuv
+no
+no anormal
+ningun caus de
+sin quej de
+sin evident
+ningun nuev evident
+ningun otra evident
+ningun evident par sug
+sin hallazg de
+no hay hallazg par indic
+no hay evident mamograf de
+nad nuev
+ningun evident radiograf de
+ningun señal de
+no signific
+sin sign de
+ningun sugerent de
+no sospech
+no
+no aparec
+no apreci
+no asoci con
+no me quej de
+no demostr
+no exhib
+no sent
+no ten
+no teng
+no sab de
+no se sab que tien
+no revel
+no ver
+no ser
+pacient no era
+mas bien que
+resuelt
+hac una prueb por
+exclu
+nad especial par
+con ningun
+sin ningun evident de
+sin evident
+sin indic de
+sin sign de
+sin
+descart par
+descart por
+descart por
+descart al pacient por
+descart
+descart
+descart
+r / o
+ro
+descart al pacient
+exclu
+lo descart
+la exclu
+expuls al pacient por
+gobiern al pacient
+lo descart contr
+la descart contr
+lo descart
+la descart
+descart contr
+descart al pacient contr
+descart par
+descart contr
+descart
+lo descart por
+lo descart en contr
+lo descart
+la descart por
+lo descart contr
+lo descart
+descart al pacient contr
+descart al pacient por
+descart al pacient
+pued descart
+pued descart contr
+pued descart
+pued descart por
+pued descart en contr
+pued descart
+pued descart por
+pued descart contr
+pued descart
+pued descart al pacient por
+pued descart al pacient contr
+pued descart al pacient
+adecu par descart
+adecu par descart
+adecu par descart por
+adecu par descart
+adecu par descart por
+adecu par descart
+adecu par descart al pacient por
+adecu par descart al pacient contr
+adecu par descart al pacient
+suficient par descart
+suficient par descart
+suficient par descart
+suficient par descart por
+suficient par descart en contr
+suficient par descart
+suficient par descart por
+suficient par descart en contr
+suficient par descart
+suficient par descart al pacient por
+suficient par descart al pacient contr
+suficient par descart al pacient
+lo que deb descart es

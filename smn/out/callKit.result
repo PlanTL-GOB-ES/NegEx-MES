@@ -1,1 +1,7 @@
-
+1	cancer	"El paciente no presenta cancer ni anemia"	Negated	negPhrases
+2	anemia	"El paciente no presenta cancer ni anemia"	Negated	negPhrases
+3	anemia	"El paciente no presenta cancer pero si tiene anemia"	Affirmed	NONE
+4	infarto	"Oclusion y estenosis otra arteria espec no infarto cerebral"	Negated	negPhrases
+5	infarto cardiovascular	"infarto cardiovascular por oclusion y estenosis otra arteria espec no infarto cerebral"	Affirmed	NONE
+6	infarto cerebral	"infarto cardiovascular por oclusion y estenosis otra arteria espec no infarto cerebral"	Negated	negPhrases
+7	dolor cronico	"paciente sin dolor cronico"	Negated	negPhrases

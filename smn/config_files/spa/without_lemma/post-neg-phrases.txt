@@ -1,0 +1,32 @@
+:=======================================================================
+:= postNegPhrases
+:=======================================================================
+debe descartarse para
+debe ser descartado para
+puede ser descartado para
+puede ser descartado para
+podría ser descartado por
+será descartado por
+se puede descartar por
+debe descartarse para
+debe ser descartado por
+ser descartado por
+improbable
+libre
+fue descartado
+está descartado
+están descartadas
+han sido descartadas
+ha sido descartado
+siendo descartado
+debe descartarse
+debe ser descartado
+puede ser descartado
+podría descartarse
+podría ser descartado
+será descartado
+se puede descartar
+debe descartarse
+debe ser descartado
+ser descartado
+se descarta

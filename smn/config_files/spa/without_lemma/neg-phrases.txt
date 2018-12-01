@@ -1,0 +1,130 @@
+:=======================================================================
+:= negPhrases
+:=======================================================================
+ausencia de
+no pueden ver
+no poder
+revisado para
+rechazado
+declina
+negado
+niega
+negando
+evaluar por
+no revela
+libre de
+negativo para
+nunca desarrollado
+nunca tuve
+no
+no anormal
+ninguna causa de
+sin quejas de
+sin evidencia
+ninguna nueva evidencia
+ninguna otra evidencia
+ninguna evidencia para sugerir
+sin hallazgos de
+no hay hallazgos para indicar
+no hay evidencia mamográfica de
+nada nuevo
+ninguna evidencia radiográfica de
+ninguna señal de
+no significativo
+sin signos de
+ninguna sugerencia de
+no sospechoso
+no
+no aparece
+no apreciar
+no asociado con
+no me quejo de
+no demostrar
+no exhibir
+no sentir
+no tenía
+no tengo
+no saber de
+no se sabe que tiene
+no revelar
+no ver
+no ser
+paciente no era
+más bien que
+resuelto
+hacer una prueba por
+excluir
+nada especial para
+con ningún
+sin ninguna evidencia de
+sin evidencia
+sin indicación de
+sin signo de
+sin
+descartar para
+descartarlo por
+descartarla por
+descartar al paciente por
+descartarlo
+descartarla
+descartar
+r / o
+ro
+descartar al paciente
+excluye
+lo descarta
+la excluye
+expulsó al paciente por
+gobierna al paciente
+lo descartó contra
+la descartó contra
+lo descartó
+la descartó
+descartado contra
+descartó al paciente contra
+descartaron para
+descartaron contra
+descartó
+lo descartaron por
+lo descartaron en contra
+lo descartaron
+la descartaron por
+lo descartó contra
+lo descartó
+descartaron al paciente contra
+descartaron al paciente por
+descartó al paciente
+puede descartar
+puede descartar contra
+puede descartar
+puede descartarlo por
+puede descartarlo en contra
+puede descartarlo
+puede descartarla por
+puede descartarla contra
+puede descartarla
+puede descartar al paciente por
+puede descartar al paciente contra
+puede descartar al paciente
+adecuado para descartar
+adecuado para descartar
+adecuado para descartarlo por
+adecuado para descartarlo
+adecuado para descartarla por
+adecuado para descartarla
+adecuado para descartar al paciente por
+adecuado para descartar al paciente contra
+adecuado para descartar al paciente
+suficiente para descartar
+suficiente para descartar
+suficiente para descartar
+suficiente para descartarlo por
+suficiente para descartarlo en contra
+suficiente para descartarlo
+suficiente para descartarla por
+suficiente para descartarla en contra
+suficiente para descartarla
+suficiente para descartar al paciente por
+suficiente para descartar al paciente contra
+suficiente para descartar al paciente
+lo que debe descartarse es

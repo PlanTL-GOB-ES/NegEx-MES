@@ -1,0 +1,31 @@
+:=======================================================================
+:= postNegPhrases with lemma
+:=======================================================================
+should be rul out for
+ought to be rul out for
+may be rul out for
+might be rul out for
+could be rul out for
+will be rul out for
+can be rul out for
+must be rul out for
+is to be rul out for
+be rul out for
+unlikely
+fre
+was rul out
+is rul out
+are rul out
+hav been rul out
+has been rul out
+being rul out
+should be rul out
+ought to be rul out
+may be rul out
+might be rul out
+could be rul out
+will be rul out
+can be rul out
+must be rul out
+is to be rul out
+be rul out

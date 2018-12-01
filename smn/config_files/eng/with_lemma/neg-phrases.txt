@@ -1,0 +1,130 @@
+:=======================================================================
+:= negPhrases with lemma
+:=======================================================================
+absenc of
+cannot see
+cannot
+check for
+declin
+declin
+deni
+deni
+denying
+evaluat for
+fails to reveal
+fre of
+negativ for
+nev develop
+nev had
+no
+no abnormal
+no caus of
+no complaints of
+no evidenc
+no new evidenc
+no other evidenc
+no evidenc to suggest
+no findings of
+no findings to indicat
+no mammographic evidenc of
+no new
+no radiographic evidenc of
+no sign of
+no significant
+no signs of
+no suggestion of
+no suspicious
+not
+not appe
+not appreciat
+not associat with
+not complain of
+not demonstrat
+not exhibit
+not feel
+not had
+not hav
+not know of
+not known to hav
+not reveal
+not see
+not to be
+patient was not
+rath than
+resolv
+test for
+to exclud
+unremark for
+with no
+without any evidenc of
+without evidenc
+without indication of
+without sign of
+without
+rul out for
+rul him out for
+rul her out for
+rul the patient out for
+rul him out
+rul her out
+rul out
+r/o
+ro
+rul the patient out
+rul out
+rul him out
+rul her out
+rul the patient out for
+rul the patient out
+rul him out against
+rul her out against
+rul him out
+rul her out
+rul out against
+rul the patient out against
+did rul out for
+did rul out against
+did rul out
+did rul him out for
+did rul him out against
+did rul him out
+did rul her out for
+did rul her out against
+did rul her out
+did rul the patient out against
+did rul the patient out for
+did rul the patient out
+can rul out for
+can rul out against
+can rul out
+can rul him out for
+can rul him out against
+can rul him out
+can rul her out for
+can rul her out against
+can rul her out
+can rul the patient out for
+can rul the patient out against
+can rul the patient out
+adequat to rul out for
+adequat to rul out
+adequat to rul him out for
+adequat to rul him out
+adequat to rul her out for
+adequat to rul her out
+adequat to rul the patient out for
+adequat to rul the patient out against
+adequat to rul the patient out
+sufficient to rul out for
+sufficient to rul out against
+sufficient to rul out
+sufficient to rul him out for
+sufficient to rul him out against
+sufficient to rul him out
+sufficient to rul her out for
+sufficient to rul her out against
+sufficient to rul her out
+sufficient to rul the patient out for
+sufficient to rul the patient out against
+sufficient to rul the patient out
+what must be rul out is

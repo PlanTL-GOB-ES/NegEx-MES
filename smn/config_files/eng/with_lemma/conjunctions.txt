@@ -1,1 +1,72 @@
-
+:=======================================================================
+:= conjunctions with lemma
+:=======================================================================
+but
+howev
+nevertheless
+yet
+though
+although
+still
+asid from
+except
+apart from
+secondary to
+as the caus of
+as the sourc of
+as the reason of
+as the etiology of
+as the origin of
+as the caus for
+as the sourc for
+as the reason for
+as the etiology for
+as the origin for
+as the secondary caus of
+as the secondary sourc of
+as the secondary reason of
+as the secondary etiology of
+as the secondary origin of
+as the secondary caus for
+as the secondary sourc for
+as the secondary reason for
+as the secondary etiology for
+as the secondary origin for
+as a caus of
+as a sourc of
+as a reason of
+as a etiology of
+as a caus for
+as a sourc for
+as a reason for
+as a etiology for
+as a secondary caus of
+as a secondary sourc of
+as a secondary reason of
+as a secondary etiology of
+as a secondary origin of
+as a secondary caus for
+as a secondary sourc for
+as a secondary reason for
+as a secondary etiology for
+as a secondary origin for
+caus of
+caus for
+caus of
+caus for
+sourc of
+sourc for
+sourc of
+sourc for
+reason of
+reason for
+reasons of
+reasons for
+etiology of
+etiology for
+trigg event for
+origin of
+origin for
+origins of
+origins for
+other possibiliti of

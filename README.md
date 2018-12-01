@@ -71,7 +71,7 @@ Therefore, all packages are within that structure:
 ## Usage
 --------
 
-To install and compile *Spanish Medical Negation* you can consult the file *Installation.md*.
+To install and compile *Spanish Medical Negation* you can consult the file [Intallation.md.](https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md)
 In this section we will assume that it has been installed and compiled correctly, and we only show some execution examples.
 
 java smn.main.Main [options]

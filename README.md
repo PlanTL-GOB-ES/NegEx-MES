@@ -7,24 +7,23 @@
 This repository contains a system for negation detection in Spanish clinical texts based on Wendy Chapman's NegEx algorithm. 
 It allows determining if a certain term (i.e. a word or group of words) is negated or not and, if so, the negated phrase. 
 
-The input text contains a line for each term for which you want to know if it is negated or not, in the following format:
+For an input text that contains a line for each term for which you want to know if it is negated or not, in the following 
+format:
 
 	identifier TAB term TAB "sentence". 
+
+It provides the following output:
+
+	identifier TAB term TAB "sentence" TAB modification TAB type_modification
 
 For example:
 
 	1 TAB cáncer TAB "El paciente no presenta cáncer ni anemia"
-
-The output it provides has the following format:
-
-	identifier TAB term TAB "sentence" TAB modification TAB type_modification
-
-For the previous input example, the output would be:
-
 	1 TAB cáncer TAB "El paciente no presenta cáncer ni anemia" TAB Negated TAB negPhrases
 
-This indicates that the term 'cáncer' appears negated in this sentence, and that the negation phrase ('no') is in the 'negPhrases' config file.
 
+This indicates that the term 'cáncer' appears negated in this sentence and that the negation phrase ('no') is in 
+the 'negPhrases' config file.
 
 The modification field can take only two values: Negated and Affirmed.
 When the modification field is Affirmed, the value of type_modification is always NONE.

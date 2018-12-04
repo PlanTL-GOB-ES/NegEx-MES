@@ -155,9 +155,9 @@ java -jar smn.jar -help
 </pre>
 
 *Spanish Medical Negation* will show the allowed options (see above).
-<pre>
 
-The smn.jar file, as indicated above, is found at smn/main/smn.jar
+The smn.jar file, as indicated above, is found at smn/main/smn.jar. 
+
 So, if we move to the 'main' folder and type this:
 <pre>
 java -jar smn.jar

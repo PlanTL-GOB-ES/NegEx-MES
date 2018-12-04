@@ -89,8 +89,8 @@ includes utility java classes.
 ## Usage
 --------
 
-To install and compile *Spanish Medical Negation* you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md)
-In this section we will assume that it has been installed and compiled correctly, and we only show some execution examples.
+To install and compile SpanMedNeg you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md). 
+In this section we will assume that it has been installed and compiled correctly and we only show some execution examples.
 
 java smn.main.Main [options]
 
@@ -126,7 +126,7 @@ Let's assume an input file "in.txt" in the directory "in" that includes the foll
 
 	1	cáncer	"El paciente no presenta cáncer ni anemia"
 
-If we execute all the options that *Spanish Medical Negation* provides, as in (in Linux, for Windows it is the same but changing "/" to "\\"):
+If we execute all the options that SpanMedNeg provides, as in (in Linux, for Windows it is the same but changing "/" to "\\"):
 
 <pre>
 java smn.main.Main -displayon true -language SPANISH -answerOptionYes true -isOuputFileGenerated true -lemmaConfigFiles false -routeConfigFiles ../config_files/ -routeInTextFile ../in/in.txt -routeOutTextFile ../out/out.txt
@@ -140,7 +140,7 @@ This generates an output file in the directory "out" with the following line:
 ### Execution via JAR file
 --------------------------
 
-The smn.jar file allows to execute *Spanish Medical Negation* directly from a terminal such as cmd, terminator, etc.
+The smn.jar file allows to execute SpanMedNeg directly from a terminal such as cmd, terminator, etc.
 To do this, write the following command line (from the directory where smn.jar is located):
 
 <pre>
@@ -148,13 +148,7 @@ java -jar smn.jar [options]
 </pre>
 
 Where *options* are those shown in the 'Usage' section.
-For example, if we type:
 
-<pre>
-java -jar smn.jar -help
-</pre>
-
-*Spanish Medical Negation* will show the allowed options (see above).
 
 The smn.jar file, as indicated above, is found at smn/main/smn.jar. 
 
@@ -163,17 +157,22 @@ So, if we move to the 'main' folder and type this:
 java -jar smn.jar
 </pre>
 
-*Spanish Medical Negation* will take the default options, and being in the directory structure 'by default' will be executed:
-* In the in.txt file, that is in smn/in/in.txt
-* With the configuration files that are at smn/config_files/
+SpanMedNeg will take the default options, and being in the directory structure 'by default':
+* It will be executed in the in.txt file, that is in smn/in/in.txt
+* It will be executed with the configuration files that are at smn/config_files/
 * It will generate an output file called callKit.result at smn/out/callKit.result
 
 If we change smn.jar to another directory, we must specify these routes in the options, so that it works correctly.
-For example, if we move smn.jar at the 'smn' parent directory, we could execute it in the following manner:
-java -jar smn.jar -routeConfigFiles ./smn/config_files/ -routeInTextFile ./smn/in/in.txt -routeOutTextFile ./out.txt
-What will cause it to run with the input file and the previous configuration files, but it will generate an output file at the 'smn' parent directory named 'out.txt'.
+For example, if we move smn.jar at the `smn` parent directory, we could execute it in the following manner:
 
-Finally, we would like to mention that in the input folder ('smn/in/in.txt') we include an example with 7 cases, in Spanish. Also in the output folder ('smn/out/callKit.result') we include the output that *Spanish Medical Negation* generates for that input text. In case you want to reproduce the results obtained, *Spanish Medical Negation* was executed with the following parameters to generate the output text (from smn/main/):
+`java -jar smn.jar -routeConfigFiles ./smn/config_files/ -routeInTextFile ./smn/in/in.txt -routeOutTextFile ./out.txt`
+
+What will cause it to run with the input file and the previous configuration files, but it will generate an output file 
+at the `smn` parent directory named 'out.txt'.
+
+Finally, the input folder ('smn/in/in.txt') includes an example with 7 cases, in Spanish, and the output folder 
+('smn/out/callKit.result') the output that SpanMedNeg generates for that input text. To reproduce the results obtained 
+(from smn/main/), execute the following command :
 
 <pre>
 java -jar smn.jar -lemmaConfigFiles false

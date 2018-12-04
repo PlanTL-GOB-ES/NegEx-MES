@@ -1,4 +1,4 @@
-# SpanMedNeg --- Spanish Medical Negation
+# SpanMedNeg: Spanish Medical Negation
 ----------------------------------------
 
 ## Introduction

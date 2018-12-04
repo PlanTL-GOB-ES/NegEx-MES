@@ -16,13 +16,13 @@ It provides the following output:
 
 	identifier TAB term TAB "sentence" TAB modification TAB type_modification
 
-For example:
+Example:
 
 	1 TAB cáncer TAB "El paciente no presenta cáncer ni anemia"
 	1 TAB cáncer TAB "El paciente no presenta cáncer ni anemia" TAB Negated TAB negPhrases
 
 
-This indicates that the term 'cáncer' appears negated in this sentence and that the negation phrase ('no') is in 
+This example indicates that the term 'cáncer' appears negated in this sentence and that the negation phrase ('no') is in 
 the 'negPhrases' config file.
 
 The modification field can take only two values: Negated and Affirmed.
@@ -30,19 +30,20 @@ When the modification field is Affirmed, the value of type_modification is alway
 When the modification field is Negated, the type_modification field can take the following four values, ordered 
 from highest to lowest degree of modification,  which allow to detect not only negation, but also uncertainty.
 
-* `Neg-phrases`: contains the most radical modifiers (e.g. ausencia de, rechazado, declina, etc.). That is, it 
-contains modifiers that deny the term in question, and are equivalent to the logical connective of the negation 
-in the propositional logic. For example, if the term was fever, these modifiers would deny this term: 
-absence of fever, without fever, etc.
+* `Neg-phrases`: for negation words --adverbs (no), negative predicates (e.g. *declina* (declines), *ausencia de* 
+(absemce of), *rechazado* (rejected)) and prepositions (*sin* (without)-- that deny the term in question and are 
+equivalent to the logical connective of the negation in the propositional logic. 
+For example, if the term was fever, these modifiers would deny this term: absence of fever, without fever, etc.
 
-* `Post-neg-phrases`: also indicates denial, but includes some doubt, so it is a little less strict than the 
-previous one; e.g. debe descartarse para, debe ser descartado para, improbable, etc.
+* `Post-neg-phrases`: for words that also indicate denial, but include some doubt, so they are a little less strict 
+than the previous ones; e.g. *debe descartarse para/debe ser descartado para* (it should be discarded for), 
+*improbable* (unlikely), etc.
 
-* `Pseudo-neg-phrases`: is very similar to the previous one, but it includes the doubt directly between its 
-possibilities; e.g. I am not sure if, I doubt, I have doubts, sin aumento, sin cambios sospechosos, tengo dudas, etc.
+* `Pseudo-neg-phrases`: for words very similar to the previous ones, but they include the doubt directly between their  
+possibilities; e.g. *no estoy seguro si* (I am not sure if), *dudo* (I doubt), *tengo dudas* (I have doubts), etc.
 
-* `Conjunctions`: corresponds to the adversative conjunctions: pero, sin embargo, aunque, etc. (however, but, if not...) 
-That is, they contradict, partially or totally, the term. These modifiers, therefore, allow to determine the degree of 
+* `Conjunctions`: for adversative conjunctions: pero, sin embargo, aunque, etc. (however, but, if not...).  
+That is, they contradict, partially or totally, the term. Therefore, they allow to determine the degree of 
 uncertainty that a term has with respect to the phrase in which it appears.
 
 Distinguishing these different degrees of modification can be very useful, for example, to assign a specific weight to 

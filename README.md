@@ -30,24 +30,24 @@ When the modification field is Affirmed, the value of type_modification is alway
 When the modification field is Negated, the type_modification field can take the following four values, ordered 
 from highest to lowest degree of modification,  which allow to detect not only negation, but also uncertainty.
 
-* Neg-phrases contains the most radical modifiers (e.g. ausencia de, rechazado, declina, etc.). That is, it contains 
-modifiers that deny the term in question, and are equivalent to the logical connective of the negation in the 
-propositional logic. For example, if the term were fever, these modifiers would deny this term: absence of fever, 
-without fever, etc.
+* `Neg-phrases`: contains the most radical modifiers (e.g. ausencia de, rechazado, declina, etc.). That is, it 
+contains modifiers that deny the term in question, and are equivalent to the logical connective of the negation 
+in the propositional logic. For example, if the term was fever, these modifiers would deny this term: 
+absence of fever, without fever, etc.
 
-* Post-neg-phrases, also indicates denial, but includes some doubt, so it is a little less strict than the previous one; 
-e.g. debe descartarse para, debe ser descartado para, improbable, etc.
+* `Post-neg-phrases`: also indicates denial, but includes some doubt, so it is a little less strict than the 
+previous one; e.g. debe descartarse para, debe ser descartado para, improbable, etc.
 
-* Pseudo-neg-phrases is very similar to the previous one, but it includes the doubt directly between its possibilities: 
-I am not sure if, I doubt, I have doubts, sin aumento, sin cambios sospechosos, tengo dudas, etc.
+* `Pseudo-neg-phrases`: is very similar to the previous one, but it includes the doubt directly between its 
+possibilities; e.g. I am not sure if, I doubt, I have doubts, sin aumento, sin cambios sospechosos, tengo dudas, etc.
 
-* Conjunctions, and correspond to the adversative conjunctions; pero, sin embargo, aunque, etc.. That is, they contradict,
-partially or totally, the term: however, but, if not, etc. These modifiers, therefore, allow to determine the degree of 
+* `Conjunctions`: corresponds to the adversative conjunctions: pero, sin embargo, aunque, etc. (however, but, if not...) 
+That is, they contradict, partially or totally, the term. These modifiers, therefore, allow to determine the degree of 
 uncertainty that a term has with respect to the phrase in which it appears.
 
-This can be very useful for applications that use SpanMedNeg, for example, to assign a specific weight to the terms 
-according to their 'degree' of modification. For example, a weight of 0.25 could be assigned to the terms modified with 
-(1), 0.50 to those modified with (2), 0.75 to those modified with (3), and 0.85 to those modified with (4).
+Distinguishing these different degrees of modification can be very useful, for example, to assign a specific weight to 
+the terms according to the modifier that co-occur with them. For example, a weight of 0.25 could be assigned to the terms 
+modified with (1), 0.50 to those modified with (2), 0.75 to those modified with (3), and 0.85 to those modified with (4).
 
 
 ## Directory structure
@@ -56,6 +56,7 @@ according to their 'degree' of modification. For example, a weight of 0.25 could
 The directory structure corresponds to package nomenclature called *smn*. 
 Therefore, all packages are within that structure:
 
+<pre>
 * smn/config_files/eng/with_lemma/: includes the 4 files with the modifiers explained above, in English and lemmatized.
 * smn/config_files/eng/without_lemma/: includes the 4 files with the modifiers explained above, in English and without lemma.
 * smn/config_files/spa/with_lemma/: includes the 4 files with the modifiers explained above, in Spanish and lemmatized.
@@ -65,12 +66,13 @@ Therefore, all packages are within that structure:
 * smn/misc/: includes the modification algorithm. 
 * smn/out/: includes the output file callKit.result.
 * smn/util/: includes utility java classes.
+</pre>
 
 
 ## Usage
 --------
 
-To install and compile *Spanish Medical Negation* you can consult the file [Intallation.md.](https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md)
+To install and compile *Spanish Medical Negation* you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md)
 In this section we will assume that it has been installed and compiled correctly, and we only show some execution examples.
 
 java smn.main.Main [options]
@@ -122,7 +124,7 @@ This generates an output file in the directory "out" with the following line:
 --------------------------
 
 The smn.jar file allows to execute *Spanish Medical Negation* directly from a terminal such as cmd, terminator, etc.
-To do this, you have to write the following command line (from the directory where smn.jar is located):
+To do this, write the following command line (from the directory where smn.jar is located):
 
 <pre>
 java -jar smn.jar [options]

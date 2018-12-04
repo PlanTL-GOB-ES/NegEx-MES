@@ -57,15 +57,32 @@ The directory structure corresponds to package nomenclature called *smn*.
 Therefore, all packages are within that structure:
 
 <pre>
-* smn/config_files/eng/with_lemma/: includes the 4 files with the modifiers explained above, in English and lemmatized.
-* smn/config_files/eng/without_lemma/: includes the 4 files with the modifiers explained above, in English and without lemma.
-* smn/config_files/spa/with_lemma/: includes the 4 files with the modifiers explained above, in Spanish and lemmatized.
-* smn/config_files/spa/without_lemma/: includes the 4 files with the modifiers explained above, in Spanish and without lemma.
-* smn/in/: includes the input file in.txt
-* smn/main/: includes the main class Main.java and the execution JAR file smn.jar.
-* smn/misc/: includes the modification algorithm. 
-* smn/out/: includes the output file callKit.result.
-* smn/util/: includes utility java classes.
+smn/config_files/eng/with_lemma/
+Includes the 4 files with the modifiers explained above, in English and lemmatized.
+
+smn/config_files/eng/without_lemma/
+Includes the 4 files with the modifiers explained above, in English and without lemma.
+
+smn/config_files/spa/with_lemma/
+Includes the 4 files with the modifiers explained above, in Spanish and lemmatized.
+
+smn/config_files/spa/without_lemma/
+Includes the 4 files with the modifiers explained above, in Spanish and without lemma.
+
+smn/in/
+Includes the input file in.txt
+
+smn/main/
+Includes the main class Main.java and the execution JAR file smn.jar.
+
+smn/misc/
+Includes the modification algorithm. 
+
+smn/out/
+Includes the output file callKit.result.
+
+smn/util/
+includes utility java classes.
 </pre>
 
 

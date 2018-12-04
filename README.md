@@ -152,23 +152,11 @@ For example, if we type:
 
 <pre>
 java -jar smn.jar -help
-
 </pre>
-*Spanish Medical Negation* will show the allowed options, that is:
+
+*Spanish Medical Negation* will show the allowed options (see above).
 <pre>
-Usage: java smn.main.Main [options]
 
-Options:
-   -`help                   <>`          : Show this message
-   -`displayon              <boolean>`   : Show the messages at the standard output. Default TRUE (show)
-   -language               <string>    : Name of the input language. Default Spanish.
-   -answerOptionYes        <boolean>   : TRUE (Yes) or FALSE (No). Default: TRUE (Yes)
-   -isOuputFileGenerated   <boolean>   : TRUE generate output file, FALSE generate List. Default TRUE.
-   -lemmaConfigFiles       <boolean>   : Configuration files with lemma (TRUE) or without lemma (FALSE). Default TRUE (with lemma).
-   -routeConfigFiles       <string>    : Config files folder name. Default: in ../config_files/
-   -routeInTextFile        <string>    : Name of the input text file. Default: in ../in/in.txt
-   -routeOutTextFile       <string>    : Name of the output text file. Default: in ../out/callKit.result
-</pre>
 The smn.jar file, as indicated above, is found at smn/main/smn.jar
 So, if we move to the 'main' folder and type this:
 <pre>

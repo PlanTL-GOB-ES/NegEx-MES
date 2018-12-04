@@ -4,7 +4,7 @@
 ## Introduction
 ---------------
 
-This repository contains a system for negation detection in Spanish clinical texts based on Wendy Chapman's NegEx algorithm
+This repository contains a system for negation detection in Spanish clinical texts based on Wendy Chapman's NegEx algorithm. 
 It allows determining if a certain term (i.e. a word or group of words) is negated or not and, if so, the negated phrase. 
 
 The input text contains a line for each term for which you want to know if it is negated or not, in the following format:

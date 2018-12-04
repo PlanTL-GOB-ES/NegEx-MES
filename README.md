@@ -1,5 +1,5 @@
-# SpanMedNeg: Spanish Medical Negation
-----------------------------------------
+# SpanMedNeg: Spanish Medical Negation 
+--------------------------------------
 
 ## Introduction
 ---------------
@@ -30,7 +30,7 @@ When the modification field is Affirmed, the value of type_modification is alway
 When the modification field is Negated, the type_modification field can take the following four values, ordered 
 from highest to lowest degree of modification,  which allow to detect not only negation, but also uncertainty.
 
-* `Neg-phrases`: for negation words --adverbs (no), negative predicates (e.g. *declina* (declines), *ausencia de* 
+* `Neg-phrases`: for words --adverbs (no), negative predicates (e.g. *declina* (declines), *ausencia de* 
 (absemce of), *rechazado* (rejected)) and prepositions (*sin* (without)-- that deny the term in question and are 
 equivalent to the logical connective of the negation in the propositional logic. 
 For example, if the term was fever, these modifiers would deny this term: absence of fever, without fever, etc.

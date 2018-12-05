@@ -1,11 +1,12 @@
-# NegEX-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts).
+# NegEX-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts)
 --------------------------------------
 
 ## Introduction
 ---------------
 
-This repository contains a system for negation detection in Spanish clinical texts based on Wendy Chapman's NegEx algorithm. 
-It allows determining if a certain term (i.e. a word or group of words) is negated or not and, if so, the negation word(s). 
+This repository contains *NegEx-MES*, a system for negation detection in Spanish clinical texts based on Wendy Chapman's 
+NegEx algorithm. It allows determining if a certain term (i.e. a word or group of words) is negated or not and, if so, 
+the negation word(s). 
 
 For an input text that contains a line for each term for which you want to know if it is negated or not in the following 
 format:
@@ -29,10 +30,10 @@ When the modification field is Affirmed, the value of type_modification is alway
 When the modification field is Negated, the type_modification field can take the following four values, ordered 
 from highest to lowest degree of negation, which allow to detect not only negation, but also uncertainty.
 
-* `Neg-phrases`: for words --adverbs (no), negative predicates (e.g. *declina* (declines), *ausencia de* 
-(absemce of), *rechazado* (rejected)) and prepositions (*sin* (without)-- that deny the term in question and are 
-equivalent to the logical connective of the negation in the propositional logic. 
-For example, if the term was fever, these modifiers would deny this term: absence of fever, without fever, etc.
+* `Neg-phrases`: for words --adverbs (e.g. *no* (no), *tampoco* (neither)), negative predicates (e.g. *declina* 
+(declines), *ausencia de* (absemce of), *rechazado* (rejected)) and prepositions (*sin* (without)-- that deny 
+the term in question and are equivalent to the logical connective of the negation in the propositional logic. 
+For example, if the term was fever, these words would deny this term: absence of fever, without fever, etc.
 
 * `Post-neg-phrases`: for words that also indicate denial, but include some doubt, so they are a little less strict 
 than the previous ones; e.g. *debe descartarse para/debe ser descartado para* (it should be discarded for), 

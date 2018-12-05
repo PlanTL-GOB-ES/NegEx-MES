@@ -1,24 +1,31 @@
-# Installation
+## Installation
 ---------------------------------------
-We include here a small tutorial to install and compile *Spanish Medical Negation*.
+
+We include here a small tutorial to install and compile *NegEx-MES*.
 If you are going to use the executable (Java ARchive, JAR) file included, you do not need to install or compile anything, just read the section 'Execution via JAR file' in the README.md file.
+
 
 ### Prerequisites
 -----------------
+
 You only need to have installed Java (developer version) 1.7 or later.
-Neither IDE nor automated compilation tool is needed, such as Eclipse or IntelliJ IDEA.
+Neither IDE nor an automated compilation tool such as Eclipse or IntelliJ IDEA is needed.
 
 ### Java
 -----------------
-If you don’t have Java 1.7 or later, download the current [Java Development Kit (JDK)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+If you don’t have Java 1.7 or later, download the current [Java Development Kit (JDK)] (https://www.oracle.com/technetwork/java/javase/downloads/index.html). 
 To check if you have a compatible version of Java installed, use the following command:
+
 <pre>
 java -version
 </pre>
 
+
 ### Environment Variables
 -------------------------
 It is necessary to include in the PATH, and CLASSPATH environment variables, the java path and the *Spanish Medical Negation* packets, respectively.
+
 
 #### PATH
 ---------

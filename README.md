@@ -46,8 +46,9 @@ That is, they contradict, partially or totally, the term. Therefore, they allow 
 uncertainty that a term has with respect to the phrase in which it appears.
 
 Distinguishing these different degrees of modification can be very useful, for example, to assign a specific weight to 
-the terms according to the modifier that co-occur with them. For example, a weight of 0.25 could be assigned to the terms 
-modified with (1), 0.50 to those modified with (2), 0.75 to those modified with (3), and 0.85 to those modified with (4).
+the terms according to the negation words that co-occur with them. For example, a weight of 0.25 could be assigned to the terms 
+co-ocurring with (1), 0.50 to those co-ocurring with (2), 0.75 to those co-ocurring with (3), and 0.85 to those 
+co-ocurring with (4).
 
 
 ## Directory structure

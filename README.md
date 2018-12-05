@@ -1,4 +1,4 @@
-# SpanMedNeg: Spanish Medical Negation 
+# NegEX-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts).
 --------------------------------------
 
 ## Introduction

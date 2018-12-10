@@ -1,15 +1,13 @@
-# NegEX-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts)
+# NegEx-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts)
 --------------------------------------
 
 ## Introduction
 ---------------
 
 This repository contains *NegEx-MES*, a system for negation detection in Spanish clinical texts based on Wendy Chapman's 
-NegEx algorithm. It allows determining if a certain term (i.e. a word or group of words) is negated or not and, if so, 
-the negation word(s). 
-
-For an input text that contains a line for each term for which you want to know if it is negated or not in the following 
-format:
+NegEx algorithm. It allows determining if a certain term (i.e. a word or group of words) is negated or not, and, if so, 
+the negation word(s). Thus, for an input text that contains a line for each term for which you want to know if it is 
+negated or not in the following format:
 
 	identifier TAB term TAB "sentence". 
 
@@ -23,7 +21,8 @@ Example:
 	1 TAB cáncer TAB "El paciente no presenta cáncer ni anemia" TAB Negated TAB negPhrases
 
 
-This example indicates that the term 'cáncer' appears negated in this sentence and that the negation adverb *no* is in the 'negPhrases' config file.
+This example indicates that the term 'cáncer' appears negated in this sentence and that the negation adverb *no* belongs 
+to type 'negPhrases'.
 
 The modification field can take only two values: Negated and Affirmed.
 When the modification field is Affirmed, the value of type_modification is always NONE.
@@ -46,7 +45,7 @@ possibilities; e.g. *no estoy seguro si* (I am not sure if), *dudo* (I doubt), *
 That is, they contradict, partially or totally, the term. Therefore, they allow to determine the degree of 
 uncertainty that a term has with respect to the phrase in which it appears.
 
-Distinguishing these different degrees of modification can be very useful, for example, to assign a specific weight to 
+Distinguishing these different degrees of negation can be very useful, for example, to assign a specific weight to 
 the terms according to the negation words that co-occur with them. For example, a weight of 0.25 could be assigned to the 
 terms co-ocurring with (1), 0.50 to those co-ocurring with (2), 0.75 to those co-ocurring with (3), and 0.85 to those 
 co-ocurring with (4).
@@ -91,7 +90,7 @@ includes utility java classes.
 ## Usage
 --------
 
-To install and compile SpanMedNeg you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md). 
+To install and compile *NegEx-MES* you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md). 
 In this section we will assume that it has been installed and compiled correctly and we only show some execution examples.
 
 java smn.main.Main [options]
@@ -128,7 +127,8 @@ Let's assume an input file "in.txt" in the directory "in" that includes the foll
 
 	1	cáncer	"El paciente no presenta cáncer ni anemia"
 
-If we execute all the options that SpanMedNeg provides, as in (in Linux, for Windows it is the same but changing "/" to "\\"):
+If we execute all the options that *NegEx-MES* provides, as in (in Linux, for Windows it is the same but changing 
+"/" to "\\"):
 
 <pre>
 java smn.main.Main -displayon true -language SPANISH -answerOptionYes true -isOuputFileGenerated true -lemmaConfigFiles false -routeConfigFiles ../config_files/ -routeInTextFile ../in/in.txt -routeOutTextFile ../out/out.txt
@@ -142,7 +142,7 @@ This generates an output file in the directory "out" with the following line:
 ### Execution via JAR file
 --------------------------
 
-The smn.jar file allows to execute SpanMedNeg directly from a terminal such as cmd, terminator, etc.
+The smn.jar file allows to execute *NegEx-MES* directly from a terminal such as cmd, terminator, etc.
 To do this, write the following command line (from the directory where smn.jar is located):
 
 <pre>
@@ -159,22 +159,24 @@ So, if we move to the 'main' folder and type this:
 java -jar smn.jar
 </pre>
 
-SpanMedNeg will take the default options, and being in the directory structure 'by default':
-* It will be executed in the in.txt file, that is in smn/in/in.txt
-* It will be executed with the configuration files that are at smn/config_files/
-* It will generate an output file called callKit.result at smn/out/callKit.result
+*NegEx-MES* will take the default options, and being in the directory structure 'by default':
+* It will be executed in the `in.txt file`, that is in `smn/in/in.txt`.
+* It will be executed with the configuration files that are at `smn/config_files/`
+* It will generate an output file called `callKit.result` at `smn/out/callKit.result`
 
-If we change smn.jar to another directory, we must specify these routes in the options, so that it works correctly.
-For example, if we move smn.jar at the `smn` parent directory, we could execute it in the following manner:
+If we change `smn.jar` to another directory, we must specify these routes in the options, so that it works correctly.
+For example, if we move `smn.jar` at the `smn` parent directory, we could execute it in the following manner:
 
-`java -jar smn.jar -routeConfigFiles ./smn/config_files/ -routeInTextFile ./smn/in/in.txt -routeOutTextFile ./out.txt`
+<pre>
+java -jar smn.jar -routeConfigFiles ./smn/config_files/ -routeInTextFile ./smn/in/in.txt -routeOutTextFile ./out.txt
+</pre>
 
 What will cause it to run with the input file and the previous configuration files, but it will generate an output file 
-at the `smn` parent directory named 'out.txt'.
+at the `smn` parent directory named `out.txt`.
 
-Finally, the input folder ('smn/in/in.txt') includes an example with 7 cases, in Spanish, and the output folder 
-('smn/out/callKit.result') the output that SpanMedNeg generates for that input text. To reproduce the results obtained 
-(from smn/main/), execute the following command :
+Finally, the input folder `smn/in/in.txt` includes an example with 7 cases, in Spanish, and the output folder 
+`smn/out/callKit.result` the output that *NegEx-MES* generates for that input text. To reproduce the results obtained 
+from `smn/main/`, execute the following command :
 
 <pre>
 java -jar smn.jar -lemmaConfigFiles false

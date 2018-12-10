@@ -30,25 +30,25 @@ When the modification field is Affirmed, the value of type_modification is alway
 When the modification field is Negated, the type_modification field can take the following four values, ordered 
 from highest to lowest degree of negation, which allow to detect not only negation, but also uncertainty.
 
-* `Neg-phrases`: for words --adverbs (e.g. *no* (no), *tampoco* (neither)), negative predicates (e.g. *declina* 
+* `negPhrases`: for words --adverbs (e.g. *no* (no), *tampoco* (neither)), negative predicates (e.g. *declina* 
 (declines), *ausencia de* (absemce of), *rechazado* (rejected)) and prepositions (*sin* (without)-- that deny 
 the term in question and are equivalent to the logical connective of the negation in the propositional logic. 
 For example, if the term was fever, these words would deny this term: absence of fever, without fever, etc.
 
-* `Post-neg-phrases`: for words that also indicate denial, but include some doubt, so they are a little less strict 
+* `postNegPhrases`: for words that also indicate denial, but include some doubt, so they are a little less strict 
 than the previous ones; e.g. *debe descartarse para/debe ser descartado para* (it should be discarded for), 
 *improbable* (unlikely), etc.
 
-* `Pseudo-neg-phrases`: for words very similar to the previous ones, but they include the doubt directly between their  
+* `pseNegPhrases`: for words very similar to the previous ones, but they include the doubt directly between their  
 possibilities; e.g. *no estoy seguro si* (I am not sure if), *dudo* (I doubt), *tengo dudas* (I have doubts), etc.
 
-* `Conjunctions`: for adversative conjunctions: pero, sin embargo, aunque, etc. (however, but, if not...).  
+* `conjunctions`: for adversative conjunctions: pero, sin embargo, aunque, etc. (however, but, if not...).  
 That is, they contradict, partially or totally, the term. Therefore, they allow to determine the degree of 
 uncertainty that a term has with respect to the phrase in which it appears.
 
 Distinguishing these different degrees of modification can be very useful, for example, to assign a specific weight to 
-the terms according to the negation words that co-occur with them. For example, a weight of 0.25 could be assigned to the terms 
-co-ocurring with (1), 0.50 to those co-ocurring with (2), 0.75 to those co-ocurring with (3), and 0.85 to those 
+the terms according to the negation words that co-occur with them. For example, a weight of 0.25 could be assigned to the 
+terms co-ocurring with (1), 0.50 to those co-ocurring with (2), 0.75 to those co-ocurring with (3), and 0.85 to those 
 co-ocurring with (4).
 
 

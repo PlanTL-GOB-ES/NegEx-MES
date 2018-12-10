@@ -1,6 +1,12 @@
 # NegEx-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts)
 --------------------------------------
 
+
+##  Digital Object Identifier (DOI)
+
+https://doi.org/10.5281/zenodo.2159627
+
+
 ## Introduction
 ---------------
 

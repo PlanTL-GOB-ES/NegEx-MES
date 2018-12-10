@@ -93,7 +93,9 @@ includes utility java classes.
 To install and compile *NegEx-MES* you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md). 
 In this section we will assume that it has been installed and compiled correctly and we only show some execution examples.
 
+<pre>
 java smn.main.Main [options]
+<7pre>
 
 Options:
 <pre>
@@ -123,7 +125,7 @@ Options:
 ## Examples
 -----------
 
-Let's assume an input file "in.txt" in the directory "in" that includes the following line: 
+Let's assume an input file `in.txt` in the directory `in` that includes the following line: 
 
 	1	cáncer	"El paciente no presenta cáncer ni anemia"
 
@@ -134,7 +136,7 @@ If we execute all the options that *NegEx-MES* provides, as in (in Linux, for Wi
 java smn.main.Main -displayon true -language SPANISH -answerOptionYes true -isOuputFileGenerated true -lemmaConfigFiles false -routeConfigFiles ../config_files/ -routeInTextFile ../in/in.txt -routeOutTextFile ../out/out.txt
 </pre>
 
-This generates an output file in the directory "out" with the following line: 
+This generates an output file in the directory `out` with the following line: 
 
 	1	cáncer	"El paciente no presenta cáncer ni anemia"	Negated	negPhrases
 
@@ -160,9 +162,9 @@ java -jar smn.jar
 </pre>
 
 *NegEx-MES* will take the default options, and being in the directory structure 'by default':
-* It will be executed in the `in.txt file`, that is in `smn/in/in.txt`.
-* It will be executed with the configuration files that are at `smn/config_files/`
-* It will generate an output file called `callKit.result` at `smn/out/callKit.result`
+* It will be executed in the `in.txt file` in `smn/in/in.txt`.
+* It will be executed with the configuration files in `smn/config_files/`
+* It will generate an output file called `callKit.result` in `smn/out/callKit.result`
 
 If we change `smn.jar` to another directory, we must specify these routes in the options, so that it works correctly.
 For example, if we move `smn.jar` at the `smn` parent directory, we could execute it in the following manner:

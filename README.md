@@ -95,7 +95,7 @@ In this section we will assume that it has been installed and compiled correctly
 
 <pre>
 java smn.main.Main [options]
-<7pre>
+</pre>
 
 Options:
 <pre>

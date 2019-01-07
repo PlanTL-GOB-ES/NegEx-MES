@@ -36,7 +36,7 @@ When the modification field is Negated, the type_modification field can take the
 from highest to lowest degree of negation, which allow to detect not only negation, but also uncertainty.
 
 * `negPhrases`: for words --adverbs (e.g. *no* (no), *tampoco* (neither)), negative predicates (e.g. *declina* 
-(declines), *ausencia de* (absemce of), *rechazado* (rejected)) and prepositions (*sin* (without)-- that deny 
+(declines), *ausencia de* (absence of), *rechazado* (rejected)) and prepositions (e.g. *sin* (without))-- that deny 
 the term in question and are equivalent to the logical connective of the negation in the propositional logic. 
 For example, if the term was fever, these words would deny this term: absence of fever, without fever, etc.
 

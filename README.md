@@ -47,7 +47,7 @@ than the previous ones; e.g. *debe descartarse para/debe ser descartado para* (i
 * `pseNegPhrases`: for words very similar to the previous ones, but they include the doubt directly between their  
 possibilities; e.g. *no estoy seguro si* (I am not sure if), *dudo* (I doubt), *tengo dudas* (I have doubts), etc.
 
-* `conjunctions`: for adversative conjunctions: pero, sin embargo, aunque, etc. (however, but, if not...).  
+* `conjunctions`: for adversative conjunctions: *pero, sin embargo, aunque*, etc. (however, but, if not...).  
 That is, they contradict, partially or totally, the term. Therefore, they allow to determine the degree of 
 uncertainty that a term has with respect to the phrase in which it appears.
 

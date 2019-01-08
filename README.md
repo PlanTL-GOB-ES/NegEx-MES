@@ -1,4 +1,4 @@
-# NegEx-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish Medical texts)
+# NegEx-MES: NegEx para textos Médicos en ESpañol (NegEx algorithm for Spanish medical texts)
 --------------------------------------
 
 

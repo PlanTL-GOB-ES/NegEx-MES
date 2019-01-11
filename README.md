@@ -170,8 +170,8 @@ java -jar smn.jar
 * It will generate an output file called `callKit.result` in `smn/out/callKit.result`
 
 
-If we change `smn.jar` to another directory, we must specify these routes in the options, so that it works correctly.
-For example, if we move `smn.jar` at the parent directory of `smn`, we must execute it with the following:
+If you change `smn.jar` to another directory, you must specify these routes in the options, so that it works correctly.
+For example, if you move `smn.jar` you the parent directory of `smn`, you must execute it with the following command:
 
 <pre>
 java -jar smn.jar -routeConfigFiles ./smn/config_files/ -routeInTextFile ./smn/in/in.txt -routeOutTextFile ./out.txt

@@ -5,14 +5,12 @@ We include here a small tutorial to install and compile *NegEx-MES*.
 If you are going to use the executable (Java ARchive, JAR) file included, you do not need to install or compile anything, just read the section 'Execution via JAR file' in the README.md file.
 
 
-### Prerequisites
+## Prerequisites
 -----------------
 
 You only need to have installed Java (developer version) 1.7 or later.
 Neither IDE nor an automated compilation tool such as Eclipse or IntelliJ IDEA is needed.
 
-### Java
------------------
 
 If you don’t have Java 1.7 or later, download the current [Java Development Kit (JDK)] (https://www.oracle.com/technetwork/java/javase/downloads/index.html). 
 To check if you have a compatible version of Java installed, use the following command:
@@ -22,12 +20,12 @@ java -version
 </pre>
 
 
-### Environment Variables
+## Environment Variables
 -------------------------
-It is necessary to include in the PATH, and CLASSPATH environment variables, the java path and the *NegEx-MES* packets, respectively.
+It is necessary to include in the PATH and CLASSPATH environment variables, the java path and the *NegEx-MES* packets, respectively.
 
 
-#### PATH
+### PATH
 ---------
 This variable informs the Operating System (OS) where Java is located within it.
 Therefore, it is dependent on the OS:
@@ -78,7 +76,7 @@ echo $PATH
 Now, we will see that the PATH variable contains the path to the Java `bin` directory.
 
 
-#### CLASSPATH
+### CLASSPATH
 ---------------
 
 The CLASSPATH environment variable is modified with the set command. The format is:
@@ -91,7 +89,7 @@ The paths should begin with the letter specifying the drive, for example, `C:\ u
 That way, the classes will still be found if you happen to switch to a different drive. 
 
 
-###### Clearing CLASSPATH
+#### Clearing CLASSPATH
 -------------------------
 
 If your CLASSPATH environment variable has been set to a value that is not correct, or if your startup file or script 
@@ -103,8 +101,10 @@ $ export CLASSPATH= (Linux)
 
 This command unsets CLASSPATH for the current command prompt window only. 
 
-###### Set CLASSPATH in *NegEx-MES*
+
+#### Set CLASSPATH in *NegEx-MES*
 --------------------------------
+
 If you have downloaded *NegEx-MES* from GitHub, the directory structure will have been maintained, which will be:
 <pre>
 smn/...
@@ -166,7 +166,6 @@ In a similar manner it would be for the rest of the directories that contain .ja
 <pre>
 /smn/main/
 /smn/misc/
-/smn/util/
 </pre>
 
 Once compiled, you can execute it.

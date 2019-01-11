@@ -96,7 +96,7 @@ includes utility java classes.
 ## Usage
 --------
 
-To install and compile *NegEx-MES* you can consult the file [Intallation.md.] (https://github.com/PlanTL/SpanMedNeg/blob/master/Installation.md). 
+To install and compile *NegEx-MES* you can consult the file [Intallation.md.] (https://github.com/PlanTL/NegEx-MES/blob/master/Installation.md). 
 In this section we will assume that it has been installed and compiled correctly and we only show some execution examples.
 
 <pre>

@@ -38,7 +38,6 @@ from highest to lowest degree of negation, which allow to detect not only negati
 * `negPhrases`: for words --adverbs (e.g. *no* (no), *tampoco* (neither)), negative predicates (e.g. *declina* 
 (declines), *ausencia de* (absence of), *rechazado* (rejected)) and prepositions (e.g. *sin* (without))-- that deny 
 the term in question and are equivalent to the logical connective of the negation in the propositional logic. 
-For example, if the term was fever, these words would deny this term: absence of fever, without fever, etc.
 
 * `postNegPhrases`: for words that also indicate denial, but include some doubt, so they are a little less strict 
 than the previous ones; e.g. *debe descartarse para/debe ser descartado para* (it should be discarded for), 
@@ -47,9 +46,9 @@ than the previous ones; e.g. *debe descartarse para/debe ser descartado para* (i
 * `pseNegPhrases`: for words very similar to the previous ones, but they include the doubt directly between their  
 possibilities; e.g. *no estoy seguro si* (I am not sure if), *dudo* (I doubt), *tengo dudas* (I have doubts), etc.
 
-* `conjunctions`: for adversative conjunctions: *pero, sin embargo, aunque*, etc. (however, but, if not...).  
-That is, they contradict, partially or totally, the term. Therefore, they allow to determine the degree of 
-uncertainty that a term has with respect to the phrase in which it appears.
+* `conjunctions`: for adversative conjunctions: *pero* (but), *sin embargo, aunque*, (however), etc. That is, they 
+contradict, partially or totally, the term. Therefore, they allow to determine the degree of uncertainty that a term 
+has with respect to the phrase in which it appears.
 
 Distinguishing these different degrees of negation can be very useful, for example, to assign a specific weight to 
 the terms according to the negation words that co-occur with them. For example, a weight of 0.25 could be assigned to the 
@@ -147,11 +146,11 @@ This generates an output file in the directory `out` with the following line:
 	1	cáncer	"El paciente no presenta cáncer ni anemia"	Negated	negPhrases
 
 
-### Execution via JAR file
+## Execution via JAR file
 --------------------------
 
 The smn.jar file allows to execute *NegEx-MES* directly from a terminal such as cmd, terminator, etc.
-To do this, write the following command line (from the directory where smn.jar is located):
+To do this, write the following command line from `mn/main/smn.jar`, the directory where smn.jar is located:
 
 <pre>
 java -jar smn.jar [options]
@@ -159,10 +158,8 @@ java -jar smn.jar [options]
 
 Where *options* are those shown in the 'Usage' section.
 
+If you use the following command: 
 
-The smn.jar file, as indicated above, is found at smn/main/smn.jar. 
-
-So, if we move to the 'main' folder and type this:
 <pre>
 java -jar smn.jar
 </pre>
@@ -172,17 +169,17 @@ java -jar smn.jar
 * It will be executed with the configuration files in `smn/config_files/`
 * It will generate an output file called `callKit.result` in `smn/out/callKit.result`
 
+
 If we change `smn.jar` to another directory, we must specify these routes in the options, so that it works correctly.
-For example, if we move `smn.jar` at the `smn` parent directory, we could execute it in the following manner:
+For example, if we move `smn.jar` at the parent directory of `smn`, we must execute it with the following:
 
 <pre>
 java -jar smn.jar -routeConfigFiles ./smn/config_files/ -routeInTextFile ./smn/in/in.txt -routeOutTextFile ./out.txt
 </pre>
 
-What will cause it to run with the input file and the previous configuration files, but it will generate an output file 
-at the `smn` parent directory named `out.txt`.
+This will generate an output file named `out.txt`.
 
-Finally, the input folder `smn/in/in.txt` includes an example with 7 cases, in Spanish, and the output folder 
+Finally, the input file `smn/in/in.txt` includes an example with 7 cases, in Spanish, and the output file  
 `smn/out/callKit.result` the output that *NegEx-MES* generates for that input text. To reproduce the results obtained 
 from `smn/main/`, execute the following command :
 

@@ -241,10 +241,18 @@ public class Main implements Serializable
 			existed.delete();
 		try
 		{
+			FileOutputStream fos = new FileOutputStream(this.routeOutTextFile, true); //true := append
+			OutputStreamWriter osw = new OutputStreamWriter(fos, java.nio.charset.StandardCharsets.ISO_8859_1);
+			BufferedWriter bw = new BufferedWriter(osw);
+			GenNegEx g = new GenNegEx(this.answerOptionYes, this.routeConfigFiles);
+			Statics.process(bw, g, this.routeInTextFile, this.dison);
+			bw.close();
+			/*
 			FileWriter fw = new FileWriter(this.routeOutTextFile, true);
 			GenNegEx g = new GenNegEx(this.answerOptionYes, this.routeConfigFiles);
 			Statics.process(fw, g, this.routeInTextFile, this.dison);
 			fw.close();
+			*/
 		}
 		catch(IOException e)
 		{

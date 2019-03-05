@@ -88,7 +88,8 @@ public class Statics
 	
 	//old methods of callkit class 
     //post: process data and prints a result to a text file
-    public static void process(FileWriter fw, GenNegEx g, String textfile, boolean dison) throws IOException
+    //public static void process(FileWriter fw, GenNegEx g, String textfile, boolean dison) throws IOException
+	public static void process(BufferedWriter fw, GenNegEx g, String textfile, boolean dison) throws IOException
 	{
 		BufferedReader file = new BufferedReader(new FileReader(textfile));
         String line;
